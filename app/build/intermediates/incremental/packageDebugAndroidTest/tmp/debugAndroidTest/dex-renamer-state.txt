@@ -1,0 +1,4 @@
+#Tue May 10 18:39:20 IST 2022
+base.0=D\:\\Languages\\Sem - 4 Projects\\MiniPro\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

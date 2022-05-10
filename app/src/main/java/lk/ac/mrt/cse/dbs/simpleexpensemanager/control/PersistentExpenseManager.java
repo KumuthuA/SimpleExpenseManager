@@ -12,14 +12,14 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.ui.MainActivity;
 
 public class PersistentExpenseManager extends ExpenseManager{
     private Context context;
-    public PersistentExpenseManager(MainActivity context) throws ExpenseManagerException {
+    public PersistentExpenseManager(Context context) throws ExpenseManagerException {
         this.context = context;
         this.setup();
     }
 
     @Override
     /*Initialize two DAO objects*/
-    public void setup() throws ExpenseManagerException {
+    public void setup(){
         TransactionDAO persistentTransactionDAO = new PersistentTransactionDAO(context);
         setTransactionsDAO(persistentTransactionDAO);
 
